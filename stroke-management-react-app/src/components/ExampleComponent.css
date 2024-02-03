@@ -1,0 +1,59 @@
+/* src/components/ExampleComponent.css */
+.example-component {
+    background-color: white;
+    position: relative;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 1.5rem;
+}
+
+.navigation {
+    ul {
+        list-style: none;
+        display: flex;
+
+        li {
+            margin-right: 20px;
+
+            a {
+                text-decoration: none;
+                color: black;
+                transition: color 0.3s ease;
+
+                &:hover {
+                    color: #007bff;
+                    /* Change to your preferred hover color */
+                }
+            }
+        }
+    }
+}
+
+.content {
+    margin-top: 70px;
+    /* Adjust based on your header height */
+    padding: 20px;
+
+    .scrolling-pictures {
+        /* Add styles for scrolling pictures */
+    }
+
+    .main-content {
+        /* Add styles for the main content */
+    }
+}
